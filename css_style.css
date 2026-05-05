@@ -1,0 +1,321 @@
+/*Hana(M01087805), Anushka(M01091174), Fathima(M01096140), Margaret(M01002694)*/
+.main_page{
+	margin-left:200px;
+	padding:20px;
+	box-sizing: border-box;
+	font-family: Verdana , sans-serif;
+	background-color: #313647;
+}
+
+.main_page h1, h2, p {
+	color: white;
+}
+
+.main_page h1 {font-family: "Playwrite IE", cursive;}
+
+.artwork-box
+{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 60px;
+}	
+.box{
+	width:280px;
+	background-color: #F9F5EB;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+	margin:20px;
+}
+.box img{
+	width:100%;
+	height: 250px;
+	object-fit: cover;
+}
+.box-content{
+	padding: 16px;
+}
+.box-content h3{
+	font-size: 20px;
+	margin-bottom: 8px;
+	font-family: Courier New, monospace;
+}
+.box-content p{
+	color: #666;
+	font-size: 14px;
+	line-height: 1.4;
+}
+.box-content .btn{
+	display: inline-block;
+	padding: 8px 16px;
+	background-color: #FAEFED;
+	text-decoration: none;
+	border-radius: 4px;
+	margin-top: 16px;
+	color: #333;
+}
+
+.box:hover {
+	background-color: #F9F5F6;
+	transform: translateY(-8px);
+    box-shadow: 0px 2px 4px rgba(0,0,0,2);
+}
+
+/* css for starry night webpage*/
+.starry_night .art_container img {
+	width: 350px;
+	border: 10px solid #eee;
+	padding: 10px;
+	background: white;
+	box-shadow: 0px 6px 18px rgba(0,0,0,0.4);
+	border-radius: 6px;
+	animation: slideIn 1s ease-out forwards;
+	opacity: 0;
+}
+@keyframes slideIn{
+	from { transform: translateX(-40px);
+	opacity: 0;
+	}
+	to { transform: translateX(0);
+	opacity: 1;
+	}
+}
+.starry_night .description p{ color: black;}
+.starry_night .art_container{
+	display: flex;
+	align-items: flex-start;
+	gap: 30px;
+	margin-top: 55px;
+}
+.starry_night h1 { font-family: "Roboto Condensed", sans-serif;}
+.starry_night {
+	background-color: F9F5EB;
+	margin-left: 200px;
+	padding: 20px;}
+	
+/*css for girl with pearl earring*/
+.girl_pearl .art_container img {
+	width: 350px;
+	border: 10px solid #eee;
+	padding: 10px;
+	background: white;
+	box-shadow: 0px 6px 18px rgba(0,0,0,0.4);
+	border-radius: 6px;
+	animation: slideIn 1s ease-out forwards;
+	opacity: 0;
+}
+@keyframes slideIn{
+	from { transform: translateX(-40px);
+	opacity: 0;
+	}
+	to { transform: translateX(0);
+	opacity: 1;
+	}
+}
+.girl_pearl .description p{ color: black;}
+.girl_pearl .art_container{
+	display: flex;
+	align-items: flex-start;
+	gap: 30px;
+	margin-top: 55px;
+}
+.girl_pearl h1 { font-family: "Roboto Condensed", sans-serif;}
+.girl_pearl {
+	background-color: F9F5EB;
+	margin-left: 200px;
+	padding: 20px;}	
+
+
+/*css for water lilies*/
+.lilies .art_container img {
+	width: 350px;
+	border: 10px solid #eee;
+	padding: 10px;
+	background: white;
+	box-shadow: 0px 6px 18px rgba(0,0,0,0.4);
+	border-radius: 6px;
+	animation: slideIn 1s ease-out forwards;
+	opacity: 0;
+}
+@keyframes slideIn{
+	from { transform: translateX(-40px);
+	opacity: 0;
+	}
+	to { transform: translateX(0);
+	opacity: 1;
+	}
+}
+.lilies .description p{ color: black;}
+.lilies .art_container{
+	display: flex;
+	align-items: flex-start;
+	gap: 30px;
+	margin-top: 55px;
+}
+.lilies h1 { font-family: "Roboto Condensed", sans-serif;}
+.lilies {
+	background-color: F9F5EB;
+	margin-left: 200px;
+	padding: 20px;}	
+
+/*css for ophelia*/
+.ophelia .art_container img {
+	width: 350px;
+	border: 10px solid #eee;
+	padding: 10px;
+	background: white;
+	box-shadow: 0px 6px 18px rgba(0,0,0,0.4);
+	border-radius: 6px;
+	animation: slideIn 1s ease-out forwards;
+	opacity: 0;
+}
+@keyframes slideIn{
+	from { transform: translateX(-40px);
+	opacity: 0;
+	}
+	to { transform: translateX(0);
+	opacity: 1;
+	}
+}
+.ophelia .description p{ color: black;}
+.ophelia .art_container{
+	display: flex;
+	align-items: flex-start;
+	gap: 30px;
+	margin-top: 55px;
+}
+.ophelia h1 { font-family: "Roboto Condensed", sans-serif;}
+.ophelia {
+	background-color: F9F5EB;
+	margin-left: 200px;
+	padding: 20px;}	
+
+/*css for scream*/
+.scream .art_container img {
+	width: 350px;
+	border: 10px solid #eee;
+	padding: 10px;
+	background: white;
+	box-shadow: 0px 6px 18px rgba(0,0,0,0.4);
+	border-radius: 6px;
+	animation: slideIn 1s ease-out forwards;
+	opacity: 0;
+}
+@keyframes slideIn{
+	from { transform: translateX(-40px);
+	opacity: 0;
+	}
+	to { transform: translateX(0);
+	opacity: 1;
+	}
+}
+.scream .description p{ color: black;}
+.scream .art_container{
+	display: flex;
+	align-items: flex-start;
+	gap: 30px;
+	margin-top: 55px;
+}
+.scream h1 { font-family: "Roboto Condensed", sans-serif;}
+.scream {
+	background-color: F9F5EB;
+	margin-left: 200px;
+	padding: 20px;}	
+
+/*css for adele*/
+.adele .art_container img {
+	width: 350px;
+	border: 10px solid #eee;
+	padding: 10px;
+	background: white;
+	box-shadow: 0px 6px 18px rgba(0,0,0,0.4);
+	border-radius: 6px;
+	animation: slideIn 1s ease-out forwards;
+	opacity: 0;
+}
+@keyframes slideIn{
+	from { transform: translateX(-40px);
+	opacity: 0;
+	}
+	to { transform: translateX(0);
+	opacity: 1;
+	}
+}
+.adele .description p{ color: black;}
+.adele .art_container{
+	display: flex;
+	align-items: flex-start;
+	gap: 30px;
+	margin-top: 55px;
+}
+.adele h1 { font-family: "Roboto Condensed", sans-serif;}
+.adele  {
+	background-color: F9F5EB;
+	margin-left: 200px;
+	padding: 20px;}	
+	
+/* css for navigation sidebar */
+.side_bar {
+	position: fixed;
+	left:0;
+	top: 0;
+	width: 180px;
+	height: 100%;
+	background-color: #1f2230;
+	padding-top: 40px
+	box-shadow: 2px 0 8px rgba(0,0,0,0.3);
+}
+
+.side_bar ul {
+	list-style: none;
+	padding: 0;
+	margin: 20px;
+	font-family: Verdana , sans-serif;
+}
+
+.side_bar li {
+	margin: 20px 0;
+}
+
+.side_bar a:hover {
+	background-color: #313647;
+}
+
+.side_bar a{ 
+	color: #F9F5EB;
+	text-decoration: none;
+}
+.side_bar a:visited {
+	color: ##F9F5F6;
+	text-decoration: none:}
+
+/*css for gallery timings*/
+.timings {
+	width: 60%;
+	margin: 20px auto;
+	border-collapse: collapse;
+	background-color: #F9F5EB;
+	font-family: Verdana , sans-serif;
+	margin-right: 360px;
+}
+.timings td {
+	padding: 12px;
+	border: 1px solid #d8d2c4;
+}
+.timings tr:nth-child(even) {
+	background-color: #FAEFED;
+}
+.timings tr:hover{
+	background-color: #f3e9df;
+	transition: 0.2s;
+}
+
+/*css for footer*/
+footer {
+	background-color: rgba(0,0,0,0.2);
+	color: #fff;
+	text-align: center;
+	padding: 15px;
+	font-size: 14px;
+}

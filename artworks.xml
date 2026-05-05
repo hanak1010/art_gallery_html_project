@@ -1,0 +1,68 @@
+<!-- Hana(M01087805), Anushka(M01091174), Fathima(M01096140), Margaret(M01002694) -->
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="artworks.xsl"?>
+<!DOCTYPE gallery SYSTEM "artworks.dtd">
+
+<gallery xmlns="http://www.artgallery.com/schema">
+
+  <artwork id="A001" medium="Oil on Canvas" style="Post-Impressionism">
+    <title>Starry Night</title>
+    <artist>Vincent van Gogh</artist>
+    <year>1889</year>
+    <type>Painting</type>
+    <description>The Starry Night is an oil-on-canvas masterpiece painted in June 1889.</description>
+    <price>$120,000,000</price>
+    <link>https://www.moma.org/collection/works/79802</link>
+  </artwork>
+
+  <artwork id="A002" medium="Oil on Canvas" style="Baroque">
+    <title>Girl With a Pearl Earring</title>
+    <artist>Johannes Vermeer</artist>
+    <year>1665</year>
+    <type>Painting</type>
+    <description>A Dutch Golden Age portrait often called the "Mona Lisa of the North."</description>
+    <price>$30,000,000</price>
+    <link>https://www.mauritshuis.nl/en/explore/the-collection/artworks/girl-with-a-pearl-earring-670/</link>
+  </artwork>
+
+  <artwork id="A003" medium="Oil on Canvas" style="Impressionism">
+    <title>Water Lilies, Harmony in Blue</title>
+    <artist>Claude Monet</artist>
+    <year>1916</year>
+    <type>Painting</type>
+    <description>One of Monet’s famous Water Lilies series, exploring light and reflection.</description>
+    <price>$50,000,000</price>
+    <link>https://www.claudemonetgallery.org/Water-Lilies-Harmony-in-Blue.html</link>
+  </artwork>
+
+  <artwork id="A004" medium="Oil on Canvas" style="Pre-Raphaelite">
+    <title>Ophelia</title>
+    <artist>John Everett Millais</artist>
+    <year>1852</year>
+    <type>Painting</type>
+    <description>A Pre-Raphaelite depiction of Shakespeare’s Ophelia floating in a stream.</description>
+    <price>$10,000,000</price>
+    <link>https://www.tate.org.uk/art/artworks/millais-ophelia-n01506</link>
+  </artwork>
+
+  <artwork id="A005" medium="Oil on Canvas" style="Expressionism">
+    <title>The Scream</title>
+    <artist>Edvard Munch</artist>
+    <year>1893</year>
+    <type>Painting</type>
+    <description>An iconic expressionist work showing a figure on a bridge under a swirling sky.</description>
+    <price>$120,000,000</price>
+    <link>https://www.nationalgallery.org.uk/art-object-page/the-scream</link>
+  </artwork>
+
+  <artwork id="A006" medium="Oil and Gold Leaf" style="Symbolism">
+    <title>Portrait of Adele Bloch-Bauer I</title>
+    <artist>Gustav Klimt</artist>
+    <year>1907</year>
+    <type>Painting</type>
+    <description>A gilded portrait famous for its intricate gold patterns and geometric designs.</description>
+    <price>$135,000,000</price>
+    <link>https://www.neuegalerie.org/portrait-adele-bloch-bauer-i</link>
+  </artwork>
+
+</gallery>
